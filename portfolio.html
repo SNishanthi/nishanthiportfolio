@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishanthi S - Software Developer Portfolio</title>
+  <link rel="stylesheet" href="portfolio-style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Nishanthi S</div>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION WITH CANVAS ANIMATION -->
+  <section id="hero" class="hero-section">
+    <canvas id="scroll-canvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-name">NISHANTHI S</h1>
+      <h2 class="hero-title">Aspiring Software Developer | Java • Python • SpringBoot</h2>
+      <p class="hero-tagline">Computer Science Engineering student passionate about building user-friendly applications, Android apps, and backend systems using Java, Kotlin, and Spring Boot.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p class="about-text">
+          I am a motivated Computer Science Engineering student with strong fundamentals in Java and a keen interest in Android and web development.
+          I enjoy solving problems, learning new technologies quickly, and building practical software that users find easy to use.
+          Currently preparing for placements and looking for opportunities to contribute to impactful software projects.
+        </p>
+        <p>
+          <strong>Interests:</strong> Java Development, Android App Development, Web Development, UI/UX Design.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title">Skills & Tech Stack</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <div class="skill-icon">🧭</div>
+          <h3>Languages</h3>
+          <ul class="skill-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML & CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Frameworks & Tools</h3>
+          <ul class="skill-list">
+            <li>Spring Boot</li>
+            <li>SQLite</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🧰</div>
+          <h3>Concepts</h3>
+          <ul class="skill-list">
+            <li>OOP</li>
+            <li>REST APIs</li>
+            <li>Database Management</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <h3>Tools & IDEs</h3>
+          <ul class="skill-list">
+            <li>NetBeans</li>
+            <li>Python IDLE</li>
+            <li>IntelliJ</li>
+            <li>Android Studio</li>
+            <li>VS Code</li>
+            <li>DB Browser for SQLite / MySQL Workbench</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>Design & Productivity</h3>
+          <ul class="skill-list">
+            <li>Photoshop</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Internship</div>
+            <h3>Frontend Web Developer</h3>
+            <h4>Galwin Technology, Trichy</h4>
+            <ul class="experience-list">
+              <li>Worked on frontend development using HTML & CSS.</li>
+              <li>Learned and applied responsive design and basic web interactions.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Internship</div>
+            <h3>Backend Developer</h3>
+            <h4>Visval Career Solutions, Karaikudi</h4>
+            <ul class="experience-list">
+              <li>Implemented backend logic and database connectivity using Java and Spring Boot.</li>
+              <li>Worked on API development and integration tests with Postman.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-icon">💼</div>
+          <h3>HireByte — Freelancer Hiring App</h3>
+          <p>Android app that allows clients to search, view, and contact verified freelancers. Implemented manual admin approval for freelancer registrations to ensure authenticity.</p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Android Studio</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🍽️</div>
+          <h3>Hotel Table Booking System</h3>
+          <p>RESTful backend for booking and viewing available hotel tables with time-slot support and admin authentication for secure management.</p>
+          <div class="project-tags">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Postman</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🚗</div>
+          <h3>Car Parking Management System</h3>
+          <p>Desktop application for efficient parking slot management with SQLite. Users can view only their reservations; full access reserved for admins.</p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Swing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS & ACHIEVEMENTS SECTION -->
+  <section id="certifications" class="section certifications-section">
+    <div class="container">
+      <h2 class="section-title">Achievements & Workshops</h2>
+      <div class="certifications-grid">
+        
+        <div class="cert-card">
+          <div class="cert-logo">🏆</div>
+          <h3>Thiran Competition</h3>
+          <p>Awarded 2nd prize for the Car Parking Management project.</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <h3>Frontend Web Development (Internship)</h3>
+          <p>Galwin Technology — Learned and applied frontend concepts (HTML & CSS).</p>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <h3>Backend Development (Internship)</h3>
+          <p>Visval Career Solutions — Worked on Java & Spring Boot backend tasks.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-content">
+        
+        <div class="education-card">
+          <h3>Bachelor of Engineering in Computer Science</h3>
+          <h4>Alagappa Chettiar Government College of Engineering and Technology, Karaikudi (2026)</h4>
+          <p class="education-year">CGPA: 8.6</p>
+        </div>
+
+        <div class="education-card">
+          <h3>Higher Secondary (12th)</h3>
+          <h4>Sri Visweswara Vidyalaya Matriculation and Higher Secondary School, Sundarapuram, Coimbatore (2022)</h4>
+          <p class="education-year">96.8%</p>
+        </div>
+
+        <div class="education-card">
+          <h3>SSLC (10th)</h3>
+          <h4>Sri Visweswara Vidyalaya Matriculation and Higher Secondary School, Sundarapuram, Coimbatore (2020)</h4>
+          <p class="education-year">98.6%</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+
+      <div class="contact-item">
+        <strong>📞 Phone:</strong> +91 6385775735
+      </div>
+
+      <div class="contact-item">
+        <strong>📧 Email:</strong>
+        <a href="nishanthi.sweety1408@gmail.com">nishanthi.sweety1408@gmail.com</a>
+      </div>
+
+      <div class="contact-item">
+        <strong>📍 Location:</strong> Karaikudi, Tamil Nadu, India
+      </div>
+
+      <div class="contact-item">
+        <strong>🔗 LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/nishanthi-s" target="_blank">linkedin.com/in/nishanthi-s</a>
+      </div>
+
+      <div class="contact-item">
+        <strong>🧠 LeetCode:</strong>
+        <a href="https://leetcode.com/u/NishanthiS/" target="_blank">leetcode.com/u/NishanthiS</a>
+      </div>
+
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built with a focus on clean design and practical software solutions</p>
+      <p>&copy; 2026 Nishanthi S. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="chat-wrapper">
+    <button id="chat-toggle" class="chat-btn">
+        <span class="icon">💬</span>
+    </button>
+
+    <div id="chat-container" class="chat-hidden">
+        <div class="chat-header">
+            <h3>Nishanthi's Assistant</h3>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div id="chat-messages">
+            <div class="message bot-msg">Hi! I'm Nishanthi's virtual assistant. Ask me about projects, skills, or placements.</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off">
+            <button id="chat-send">Send</button>
+        </div>
+    </div>
+</div>
+
+  <script src="portfolio-script.js"></script>
+</body>
+</html>
